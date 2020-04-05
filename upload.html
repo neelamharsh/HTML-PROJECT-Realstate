@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Upload.html</title>
+	<style type="text/css">
+		form
+		{
+			width: 400px;
+			padding-top: 40px;
+			text-align: center;
+			height: 580px;
+			margin-top: 1%;
+			margin-left: 39%;
+			font-size: 15px;
+			font-weight: bold;
+			background: rgba(0,0,0,0.8);
+			color:white;
+		}
+		body
+		{
+			background-image: url("https://images.pexels.com/photos/960137/pexels-photo-960137.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500");
+			background-repeat: repeat;
+		    
+            
+		}
+		.id
+		{
+			opacity: 0.2;
+		}
+		h2
+		{
+			font-style: italic;
+			color: gray;
+			font-size:40px;
+		}
+		.p
+		{
+			color:black;
+			font-size: 29px;
+			font-weight: 10px;
+		}
+		h3
+		{
+			color: yellow;
+		}
+		b
+		{
+			font-size: 25px;
+		}
+	</style>
+</head>
+<body>
+	<h2>ApnaGhar.com(apke khusioo ki chawi)</h2><h3>
+	please upload the realted detail about your home. we provide the best deals to you.</h3>
+<form method="post" action="file:///E:/html/file.php"><b align="center">Details.</b><p>
+	Name:<input type="text" required="" class="id"><p>
+	Contect:<input type="text" required="" class="id"><p>
+	Email:<input type="Email" required="" class="id"><p>
+	Gender:<input type="radio" required="" class="id" name="gen">Male<input type="radio" class="id" required="" name="gen">Female<input type="radio" required="" class="id" name="gen">Other<p>
+	Address:<input type="text" required="" class="id"><p>
+	Sold:<input type="checkbox" checked="" class="id">
+	Remember me:<input type="checkbox" required="" class="id"><p>
+     <label for="type">Choose a type:</label>
+     <select id="type" name="type">
+    <option value="1BHK">1BHK</option>
+    <option value="2BHK">2BHK</option>
+    <option value="APPARTMENT">Appartment</option>
+    <option value="OTHER">OTHER</option></select><p>
+    Description:<textarea rows = "10" cols = "20" required="" class="id"></textarea><p>
+   <pre>             Image:<input type="file" id="img" name="img" accept="image/*"><p>
+   Submit:<input type="Submit"> Reset:<input type="Reset"></pre>
+   
+</form>
+</body>
+</html>
+
+
